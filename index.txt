@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>¡ÁLAMOS! El Nuevo Marketplace Virtual De Vehículos</title>
+  <link rel="icon" href="img/logo1.png">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180185287-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-180185287-1');
+  </script>
+</head>
+<body id="page-top">
+  
+ <button onclick="topFunction()" id="myBtn" title="Go to top">¡QUIERO INSCRIBIRME!</button>
+  <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 50;
+    document.documentElement.scrollTop = 50;
+  }
+  </script>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Inicio</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menú
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#features">Descubre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="mb-5"><b>¡Conoce Álamos!</b>
+              <br>
+              El nuevo <b><span style="color:yellow;">marketplace virtual</span></b> en donde podrás comprar y vender <b><span style="color:yellow;">tu vehículo</span></b> 
+              usado de manera <b><span style="color:yellow;">segura</span></b>, <b><span style="color:yellow;">ágil</span></b> y al <b><span style="color:yellow;">mejor precio</span></b>.
+            <br><br>
+             ¡Apúntate a vivir una <b><span style="color:yellow;">nueva experiencia</span></b> en la compra y venta de vehículos!<br></h1>
+            </h1>
+            
+         <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf2CO--H34TIiUTwEtVsh8HndbccPg8O7VAPqyArqlL9nBiMg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  <input type="text" tabindex="-1" class="text-field" name="entry.253823004" id="entry.253823004" placeholder="Nombre..." onfocus="myFunction()"><br>
+  <input type="email" tabindex="-1" class="email-field" name="entry.227024020" required id="entry.227024020" placeholder="Ingresa tu email..." onfocus="myFunction()"><br>
+  <p><input id="field_terms" onchange="this.setCustomValidity(validity.valueMissing ? 'Por favor indica que aceptas los Términos y Condiciones' : '');" type="checkbox" required name="terms"> <span style="font-size:11px">Acepto los <a href="terms/terminos-y-condiciones.html"><u>Términos y Condiciones</u></a>
+           y he leído la <a href="privacy/politica-privacidad.html"><u>Política de Privacidad</u></a></span></p>
+  <input type="submit" value="¡QUIERO INSCRIBIRME!"  id="validate" class="btn btn-outline btn-xl">
+</form>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+function validateEmail(emailAddress) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(emailAddress);
+}
+if (screen && screen.width < 780) {
+function validate() {
+  var emailValue = document.getElementById("entry.227024020").value;
+  if (!validateEmail(emailValue)) {
+  	document.getElementById("entry.227024020").className += " red-border formInvalid";
+    alert("Por favor ingresa un email válido");
+    document.getElementById("entry.227024020").removeAttribute("formInvalid")
+
+    return false;
+  	}
+  }
+ }
+  
+$("#validate").bind("click", validate); 
+</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(0);
+  $('#gform').prepend('¡Gracias por tu interés, pronto sabrás de nosotros!');
+  }); 
+</script>
+
+          </div>
+        </div>
+        <div class="col-lg-5 my-auto">
+          <div class="device-container">
+            <div class="device-mockup iphone6_plus portrait black">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <img src="img/very-soon.png" class="img-fluid" alt="">
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>¿Por qué ser parte de <b>Álamos</b>?</h2>
+        <p class="text-muted">Somos la <b>única aplicación</b> que se <b>especializa</b> en el mercado de vehículos usados y que 
+          busca <b>mejorar la experiencia</b> de las personas en su <b>proceso de compraventa</b>. Te brindamos:</p>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 my-auto">
+          <div class="device-container">
+            <div class="device-mockup iphone6_plus portrait black">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <img src="img/home-screen.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 my-auto">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-lock text-primary"></i>
+                  <h3>Seguridad en la Operación</h3>
+                  <p class="text-muted">Negocia sólo con usuarios registrados en la <b>Comunidad Álamos</b> y obtén <b>transparencia y seguridad</b> en la operación.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-location-pin"></i>
+                  <h3>Todo en un sólo lugar</h3>
+                  <p class="text-muted">Consulta desde la <b>App</b> impuestos, SOAT, multas, comparendos, <b>propiedad y antecedentes del vehículo</b> que quieres comprar o vender.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-directions"></i>
+                  <h3>Guía en el Proceso</h3>
+                  <p class="text-muted">Te acompañamos durante el proceso y te brindamos las herramientas para que tengas una experiencia de <b>compraventa ágil y segura</b>.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-screen-smartphone text-primary"></i>
+                  <h3>Revisión Tecnomecánica</h3>
+                  <p class="text-muted">Solicita el peritaje desde la <b>App</b> con <b>un sólo clic</b>, accede a <b>centros de servicio especializados</b> y recibe los resultados directamente en la aplicación.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact bg-primary" id="contact">
+    <div class="container">
+      <h2>¡Únete a la Comunidad <b>Álamos</b>!
+        <i class="fas fa-heart"></i></h2>
+      <ul class="list-inline list-social">
+        <li class="list-inline-item social-facebook">
+          <a href="https://www.facebook.com/alamosapp">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; alamosapp.co 2020. Todos los Derechos Reservados.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="privacy/politica-privacidad.html">Política de Privacidad</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="terms/terminos-y-condiciones.html">Términos y Condiciones</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/new-age.min.js"></script>
+</body>
+</html>
