@@ -151,7 +151,8 @@ $("#validate").bind("click", validate);
 </script>
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
-   window.location.href= "thanks_submit.html";
+  $('#gform *').fadeOut(0);
+  $('#gform').prepend('¡Gracias por tu interés, pronto sabrás de nosotros!');
   }); 
 </script>
 
